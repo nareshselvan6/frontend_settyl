@@ -17,7 +17,7 @@ const App = () => {
 
           {/*    Authentication */}
 
-          <Route path="/register" element={<RegisterPage/>} />
+          <Route path="/" element={<RegisterPage/>} />
           <Route path="/loginpage" element={<Login/>} />
 
            {/* <Route element={<Protectedroute/>}> */}
