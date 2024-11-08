@@ -29,7 +29,7 @@ const token=localStorage.getItem("jwt")
     </button>
     <div className="collapse navbar-collapse" id="navbarResponsive">
       <ul className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-        <li className="nav-item"><Link className="nav-link" to="/register">Register</Link></li>
+        <li className="nav-item"><Link className="nav-link" to="/">Register</Link></li>
         <li className="nav-item"><Link className="nav-link" to="/loginpage">Login</Link></li>
         {token? <li className="nav-item"><Link className="nav-link " >Messages</Link></li>:null}
        {token? <li className="nav-item"><Link className="nav-link " >Friends</Link></li>:null}
