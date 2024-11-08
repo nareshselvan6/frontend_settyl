@@ -1,0 +1,39 @@
+/* ***************************NavBar********************************** */
+.navbar{
+  padding: 0px;
+}
+.container-fluid{
+  background-color: black;
+  color: white;
+  
+}
+
+/* .home{
+background-image: url(/images/carcare3.jpg) ;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+height: 600px;
+width: 100% !important;
+} */
+
+.tsimagediv{
+   width: 30px;
+   height: 30px;
+   color: white;
+}
+
+.tsimage{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.nav-item:hover{
+  background-color: #121620;
+  color:#FAFBFE;
+  border: 2px solid #121620;
+  border-radius: 10px;
+}
+
+.container{
+  background-color: black;
+}

@@ -1,0 +1,274 @@
+/* .home{
+    width: 700px;
+    height: 450px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 15px;
+    margin-left: 30%;
+
+} */
+
+/* .totalcontent{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+} */
+
+.pagetitle{
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 0px;
+}
+
+.registerpage{
+    /* margin-top: 80px; */
+   border: 2px solid #DCE7E6;
+   border-radius: 10px;
+   width: 500px;
+   height: auto;
+   display: flex !important;
+   flex-direction: column;
+   justify-content: center !important; 
+   align-self: center !important;
+   margin-top: 50px;
+}
+
+.authpackage {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    background-size: cover;
+    height: 700px;
+}
+
+
+.contentcolor{
+    margin-top: 15px;
+    color: #DCE7E6;
+}
+
+
+@media only screen and (max-width: 550px) {
+    .registerpage{
+        /* margin-top: 80px; */
+       border: 2px solid #DCE7E6;
+       border-radius: 10px;
+       width: 350px;
+       height: auto;
+       display: flex !important;
+       flex-direction: column;
+       justify-content: center !important; 
+       align-self: center !important;
+       margin-top: 50px;
+    }
+    .inputbox{
+        width: 200px;
+    }
+   
+}
+
+
+.already-account{
+    margin-bottom: 20px;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.form,input{
+    padding: 8px;
+    border: none;
+    border-radius:5px;
+}
+input{
+    width: 300px;
+}
+
+button{
+    margin: 15px;
+}
+
+.form,label{
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.totallogincontent{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.totallogin-page{
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page{
+    border: 5px solid ;
+    border-radius: 15px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login{
+    color: black;
+}
+.loginlabel{
+    color: white;
+}
+
+/* reset and forgot password */
+
+.forgotpassword{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 500px;
+    height: 450px;
+
+}
+
+.resetpassword{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 500px;
+    height: 450px;
+}
+.forget{
+    margin-top: 100px;
+}
+
+.totalforgotpassword{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.totalreset{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.reset{
+    margin-top: 80px;
+}
+
+.white{
+text-decoration: none;
+color: white;
+margin-top: 8px;
+
+}
+
+.forgettotalcontent{
+    background-image: url(/images/forgetpassword.jpg) ;
+    background-size: 100% 100%;
+    height:700px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forgot-password-page{
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgotinput{
+    border: solid ;
+}
+
+
+.blurred-div {
+       
+    background: rgba(255, 255, 255, 0.0); 
+    backdrop-filter: blur(3px); 
+     
+}
+
+@media only screen and (max-width: 380px) {
+   
+    .forgotinput{
+
+        width: 200px;
+
+    }
+
+}
+
+
+.totalresetcontent{
+    background-image: url(/images/resetpwsrd.jpg);
+    background-size: 100% 100%;
+    height:650px ;
+}
+
+.resetlabel{
+    color: #DCE7E6;
+}
+
+.reset-password-page{
+    border: 5px solid white;
+    border-radius: 15px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 450px) {
+   
+    .reset-password-page{
+        border: 5px solid white;
+        border-radius: 15px;
+        height: 400px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .resetinput{
+        width: 200px;
+    }
+
+}
+
+.resetmsg{
+    color: white;
+}
+
+.reset-update-btn{
+    border: none;
+    border-radius: 8px;
+    background-color: #E45212;
+    color: white;
+    padding: 10px;
+}
