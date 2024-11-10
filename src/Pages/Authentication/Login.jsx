@@ -25,6 +25,7 @@ const Login = () => {
     if (!authentication?.accesstoken) {
       console.log("token not get");
     } else {
+      
       localStorage.setItem("jwt", authentication?.accesstoken);
       alert("login successfull")
       navigate("/post");

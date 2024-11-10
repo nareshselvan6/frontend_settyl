@@ -34,7 +34,7 @@ export const getpost=()=>async(dispatch)=>{
 export const updatelike=(value)=>async(dispatch)=>{
     try {
         dispatch(postRequest());
-        const updatelike= await axios.put(`http://localhost:7007/postcreation/updatelike`,value);
+        const updatelike= await axios.put(`https://backend-settyl.onrender.com/postcreation/updatelike`,value);
         dispatch(postSuccess(updatelike.data));
     } catch (error) {
         dispatch(postFail(error));
@@ -46,7 +46,7 @@ export const updatelike=(value)=>async(dispatch)=>{
 export const updatecomment=(value)=>async(dispatch)=>{
     try {
         dispatch(postRequest());
-        const updatecomment= await axios.put(`http://localhost:7007/postcreation/updatecomment`,value);
+        const updatecomment= await axios.put(`https://backend-settyl.onrender.com/postcreation/updatecomment`,value);
         dispatch(postSuccess(updatecomment.data));
     } catch (error) {
         dispatch(postFail(error));
@@ -59,7 +59,7 @@ export const updatecomment=(value)=>async(dispatch)=>{
 export const deletepost=(userid)=>async(dispatch)=>{
     try {
         dispatch(postRequest());
-        const deletepost= await axios.put(`http://localhost:7007/postcreation/deletepost`,userid);
+        const deletepost= await axios.put(`https://backend-settyl.onrender.com/postcreation/deletepost`,userid);
         dispatch(postSuccess(deletepost.data));
     } catch (error) {
         dispatch(postFail(error));
