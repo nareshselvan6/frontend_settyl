@@ -55,7 +55,7 @@ height: 690px;
 .post_feed{
     background-color: #FFBBEC;
 background-image: linear-gradient(180deg, #FFBBEC 0%, #A9C9FF 100%);
-height: 690px;
+height: auto;
 
 }
 
